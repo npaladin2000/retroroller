@@ -1,9 +1,9 @@
 Package: retroroller
-Version: 0.5-1
+Version: 1.0-1
 Section: base
 Priority: optional
 Architecture: arm64
-Depends: libasound2, libopenal1, libpng16-16, libdrm2, libswscale4, libavcodec57, libfreetype6, libavformat57, libavdevice57, libavutil55, libevdev2, python3-libevdev, libasound2:armhf, libopenal1:armhf, libpng16-16:armhf, libdrm2:armhf, libswscale4:armhf, libavcodec57:armhf, libfreetype6:armhf, libavformat57:armhf, libavdevice57:armhf, libavutil55:armhf, libevdev2:armhf, python3-libevdev
+Depends: libasound2, libopenal1, libpng16-16, libdrm2, libswscale4, libavcodec57, libfreetype6, libavformat57, libavdevice57, libavutil55, libevdev2, python3-evdev, libasound2:armhf, libopenal1:armhf, libpng16-16:armhf, libdrm2:armhf, libswscale4:armhf, libavcodec57:armhf, libfreetype6:armhf, libavformat57:armhf, libavdevice57:armhf, libavutil55:armhf, libevdev2:armhf, python3-libevdev, rsync
 Maintainer: valadaa48 <valadaa48@gmx.com>
 Description: Retro Roller
  When you need some sunshine, just run this

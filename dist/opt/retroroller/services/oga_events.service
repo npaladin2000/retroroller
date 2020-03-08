@@ -1,0 +1,9 @@
+[Unit]
+Description=odroidgo2 evdev listener
+
+[Service]
+ExecStart=/usr/local/bin/oga_events.py
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

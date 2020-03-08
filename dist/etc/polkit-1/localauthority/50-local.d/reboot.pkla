@@ -1,0 +1,6 @@
+[Allow all users to shutdown]
+Identity=unix-user:*
+Action=org.freedesktop.login1.reboot-multiple-sessions
+ResultInactive=no
+ResultActive=yes
+ResultAny=yes

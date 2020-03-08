@@ -6,7 +6,7 @@ import time
 from subprocess import check_output
 
 pwrkey = evdev.InputDevice("/dev/input/event0")
-odroidgo2_joypad = evdev.InputDevice("/dev/input/event1")
+odroidgo2_joypad = evdev.InputDevice("/dev/input/event2")
 sound = evdev.InputDevice("/dev/input/event2")
 
 brightness_path = "/sys/devices/platform/backlight/backlight/backlight/brightness"
@@ -47,9 +47,9 @@ async def handle_event(device):
             keys = odroidgo2_joypad.active_keys()
             if event.value == 1 and event.code == Power.pwr: # pwr
                 if Joypad.f3 in keys:
-                    runcmd("sudo /bin/systemctl poweroff || true", shell=True)
+                    runcmd("/bin/systemctl poweroff || true", shell=True)
                 else:
-                    runcmd("sudo /bin/systemctl suspend || true", shell=True)
+                    runcmd("/bin/systemctl suspend || true", shell=True)
 
         elif device.name == "odroidgo2_joypad":
             keys = odroidgo2_joypad.active_keys()
