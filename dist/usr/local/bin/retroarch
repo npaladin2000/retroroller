@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/opt/retroarch/bin/retroarch -c /home/odroid/.config/retroarch/retroarch.cfg "$@"

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+case $1 in
+   pre)
+	# workaround until dwc2 is fixed
+	modprobe -r dwc2
+	;;
+   post)
+	modprobe -r dwc2
+	modprobe -i dwc2
+	;;
+esac
+

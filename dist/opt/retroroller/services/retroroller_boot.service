@@ -1,0 +1,10 @@
+Description=Retro Roller Boot
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/opt/retroroller/scripts/retroroller_boot.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
