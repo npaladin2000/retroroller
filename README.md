@@ -26,17 +26,21 @@ Reboot.
 
 There is a global listener.
 
+```
 F3 + left/right	-> volume
 F3 + up/down 	-> brightness
 power 		-> suspend
 F3 + power 	-> shutdown
 F3 + L 		-> perfmax
 F3 + R		-> perfnorm
+```
 
 ### Retroarch
 
+```
 F3		-> Hotkey
 L + R		-> Menu
+```
 
 Look and customize `settings->input` to your liking.
 
