@@ -11,4 +11,4 @@ chmod g+w /sys/devices/platform/dmc/devfreq/dmc/governor
 
 echo -n 0 > /sys/devices/platform/gpio_leds/leds/blue\:heartbeat/brightness
 
-sudo sed -i 's/#HandlePowerKey=poweroff/HandlePowerKey=ignore/' /etc/systemd/logind.conf
+#sed -i 's/#HandlePowerKey=poweroff/HandlePowerKey=ignore/' /etc/systemd/logind.conf
