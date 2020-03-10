@@ -38,7 +38,7 @@ F3 + R		-> perfnorm
 F3		-> Hotkey
 L + R		-> Menu
 
-Look and customize settings->input to your liking.
+Look and customize `settings->input` to your liking.
 
 
 ## Features
@@ -49,7 +49,7 @@ Look and customize settings->input to your liking.
 - perfmax also sets the mem governor to high
 - Custom kernel with sleep enabled
 - Retroarch apps setup to download cores from Safarikniv's site
-- NOirBRight's es_system.cfg uses retroarch where available
+- NOirBRight's `es_system.cfg` uses retroarch where available
 - Shutdown/reboot works
 - Headphone/speaker auto-switching works
 
