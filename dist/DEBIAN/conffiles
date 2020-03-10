@@ -1,3 +1,6 @@
 home/odroid/.config/retroarch32/retroarch.cfg
 home/odroid/.config/retroarch/retroarch.cfg
 etc/emulationstation/es_systems.cfg
+usr/local/bin/oga_events.py
+usr/local/bin/emulationstation/emulationstation.sh
+opt/retroroller/scripts/retroroller_boot.sh
