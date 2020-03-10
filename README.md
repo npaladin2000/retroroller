@@ -13,7 +13,8 @@ most likely not be making this into a kitchen sink of apps like other images.
 ## How To Update Retro Roller
 
 NOTE: If you get prompted to update config files, choose which action you want
-to take. You should probably backup your config files first.
+to take. You should probably backup any files you changed first including retroarch.cfg's,
+scripts, etc.. until you're comfortable with dpkg upgrades.
 
 	sudo dpkg -i retroroller_<ver>.deb # substitute for <ver>
 	sudo apt-get -f install
