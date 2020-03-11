@@ -4,3 +4,4 @@ etc/emulationstation/es_systems.cfg
 usr/local/bin/oga_events.py
 usr/local/bin/emulationstation/emulationstation.sh
 opt/retroroller/scripts/retroroller_boot.sh
+etc/emulationstation/themes/es-theme-simple/simple.xml
